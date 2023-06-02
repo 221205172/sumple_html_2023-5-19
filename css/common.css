@@ -59,6 +59,10 @@ img {
     margin-right: 20px;
 }
 
+.site-menu ul li a {
+    font-family: 'Monomaniac One', sans-serif;
+}
+
 .footer {
     color: #ffffff;
     background-color: #24211b;
@@ -66,5 +70,17 @@ img {
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;  
+    align-items: center;
 }
-  
+
+.footer-logo {
+    display: block;
+    width: 150px;
+    margin-top: 90px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 90px;
+}
